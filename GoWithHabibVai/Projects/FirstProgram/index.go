@@ -3,10 +3,8 @@ package main
 import "fmt"
 func main() {
 	fmt.Println("Hello, World! This is my first go program." )
-
 	a := 10
 	b := 20
-
 	if(a > b) {
 		fmt.Println("a is greater than b")
 	} else if(a <= b) {

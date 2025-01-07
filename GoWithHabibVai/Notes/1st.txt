@@ -1,6 +1,5 @@
 every program must have a package
 every main function package must be main package
-
 import 'fmt'
     fmt => format
 
@@ -8,6 +7,5 @@ func => function
     like func main(){
 
     }
-
 variable declare in go in this way :
     a := 10
