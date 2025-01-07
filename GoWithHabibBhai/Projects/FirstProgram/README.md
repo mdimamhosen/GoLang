@@ -7,7 +7,7 @@
 
 ### Example:
 
-```go
+````go
 package main
 
 import "fmt"
@@ -15,19 +15,20 @@ import "fmt"
 func main() {
     fmt.Println("Hello, World!")
 }
+  ```go run filename-with-extension
+````
+
+go run filename
 ```
 
-To run the code, type
-
-````
-go run filename
-               ```
 ## Importing Packages
 
 - The **`import`** statement is used to include external or standard libraries in your program.
 - For example:
   ```go
   import "fmt"
+  ```
+
 ````
 
 - `fmt` is short for **format**, used for formatted I/O operations like printing to the console.
@@ -224,3 +225,4 @@ func main() {
       }
   }
   ```
+````
