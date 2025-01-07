@@ -19,7 +19,8 @@ func main() {
 
 To run the code, type
 
-```go run filename-with-extension
+```
+go run filename-with-extension
 
 ```
 
