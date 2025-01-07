@@ -7,7 +7,7 @@
 
 ### Example:
 
-````go
+```go
 package main
 
 import "fmt"
@@ -15,10 +15,12 @@ import "fmt"
 func main() {
     fmt.Println("Hello, World!")
 }
-  ```go run filename-with-extension
-````
+```
 
-go run filename
+To run the code, type
+
+```go run filename-with-extension
+
 ```
 
 ## Importing Packages
