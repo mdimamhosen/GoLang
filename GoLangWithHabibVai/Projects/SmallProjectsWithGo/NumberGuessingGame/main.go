@@ -35,7 +35,7 @@ func main() {
 
 	var userGuess int
 	var attempts int
-	fmt.Print("Number of times you wnat to play: ")
+	fmt.Print("Number of times you want to play: ")
 	fmt.Scan(&attempts)
 	for(attempts > 0){
 		fmt.Printf("Guess the number (1-%d): ", maxNumber)
