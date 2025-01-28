@@ -68,3 +68,5 @@ func main() {
 	// Call divide with arguments 42 and 13, and print the quotient.
 	fmt.Println("Quotient:", divide(42, 13))
 }
+
+// This are standard functions that are used in the main function.
