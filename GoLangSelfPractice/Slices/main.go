@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	slice1 := []int{1, 2, 3, 4, 5}
 	fmt.Println(slice1)
+	fmt.Println(slice1[:])
 	println(slice1[0])
 	println(cap(slice1))
 	println(len(slice1))
