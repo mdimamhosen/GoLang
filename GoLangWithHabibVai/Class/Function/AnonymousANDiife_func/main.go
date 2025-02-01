@@ -11,5 +11,10 @@ func main() {
 		fmt.Println("Hello from immediately invoked function")
 	} ()
 
+
+	func (a, b int) {
+		fmt.Println(a + b)
+	}	(10, 20)
+
 	fmt.Println(add(10, 20))
 }
